@@ -38,7 +38,7 @@ export function Footer() {
               className="text-xl font-heading font-bold tracking-tight text-slate-900 dark:text-white mb-2">
               
               Kaveesha
-              <span className="text-accent-600 dark:text-accent-400">.me</span>
+              <span className="text-accent-600 dark:text-accent-400"> Sewmini</span>
             </a>
             <p className="text-sm text-slate-500 dark:text-slate-400">
               © {currentYear} Kaveesha Sewmini. All rights reserved.

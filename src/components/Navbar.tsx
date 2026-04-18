@@ -84,7 +84,7 @@ export function Navbar() {
           onClick={(e) => scrollToSection(e, '#home')}
           className="text-xl font-heading font-bold tracking-tight text-slate-900 dark:text-white">
           
-          Kaveesha<span className="text-accent-600 dark:text-accent-400">.me</span>
+          Kaveesha<span className="text-accent-600 dark:text-accent-400"> Sewmini</span>
         </a>
 
         {/* Desktop Nav */}
