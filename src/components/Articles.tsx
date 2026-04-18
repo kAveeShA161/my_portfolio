@@ -28,7 +28,7 @@ const articlesData: Article[] = [
   readTime: '2 min read',
   url: 'https://www.linkedin.com/pulse/what-docker-compose-how-dockerize-mern-application-kaveesha-sewmini-k8flc',
   image:
-  'public/images/DockerCompose.png',
+  'my_portfolio/public/images/DockerCompose.png',
   tags: ['Docker', 'DockerCompose']
 },
 {
@@ -40,7 +40,7 @@ const articlesData: Article[] = [
   readTime: '3 min read',
   url: 'https://www.linkedin.com/pulse/what-docker-volume-build-your-first-kaveesha-sewmini-jsq3c',
   image:
-  'public/images/DockerVolume.png',
+  'my_portfolio/public/images/DockerVolume.png',
   tags: ['Docker', 'DockerVolume']
 },
 {
@@ -52,7 +52,7 @@ const articlesData: Article[] = [
   readTime: '3 min read',
   url: 'https://www.linkedin.com/pulse/top-15-docker-commands-every-beginner-should-know-kaveesha-sewmini-h0oec',
   image:
-  'public/images/DockerCommands.png',
+  'my_portfolio/public/images/DockerCommands.png',
   tags: ['Docker', 'DockerCommands']
 },
 {
@@ -64,7 +64,7 @@ const articlesData: Article[] = [
   readTime: '2 min read',
   url: 'https://www.linkedin.com/pulse/what-dockerfile-how-create-your-first-docker-image-guide-sewmini-kmucc',
   image:
-  'public/images/Dockerfile.png',
+  'my_portfolio/public/images/Dockerfile.png',
   tags: ['Docker', 'Dockerfile']
 },
 {
@@ -76,7 +76,7 @@ const articlesData: Article[] = [
   readTime: '3 min read',
   url: 'https://www.linkedin.com/pulse/understanding-docker-architecture-client-daemon-host-registry-rlfac',
   image:
-  'public/images/DockerArchitecture.jpeg',
+  'my_portfolio/public/images/DockerArchitecture.jpeg',
   tags: ['Docker', 'DockerArchitecture']
 },
 {
@@ -88,7 +88,7 @@ const articlesData: Article[] = [
   readTime: '3 min read',
   url: 'https://www.linkedin.com/pulse/what-docker-kaveesha-sewmini-m7fec',
   image:
-  'public/images/Dockerintro.png',
+  'my_portfolio/public/images/Dockerintro.png',
   tags: ['Docker']
 },{
   id: 7,
@@ -99,7 +99,7 @@ const articlesData: Article[] = [
   readTime: '4 min read',
   url: 'https://medium.com/@kaveeshasewmini161/bcrypt-password-verification-in-python-9dfa3fa2fa00',
   image:
-  'public/images/Bcrypt.jpeg',
+  'my_portfolio/public/images/Bcrypt.jpeg',
   tags: ['Python', 'Bcrypt']
 },
 {
@@ -111,7 +111,7 @@ const articlesData: Article[] = [
   readTime: '2 min read',
   url: 'https://www.linkedin.com/pulse/tuple-packing-unpacking-python-kaveesha-sewmini-n4kaf',
   image:
-  'public/images/PythonTuplePU.png',
+  'my_portfolio/public/images/PythonTuplePU.png',
   tags: ['Python', 'Tuple']
 },
 {
@@ -123,7 +123,7 @@ const articlesData: Article[] = [
   readTime: '3 min read',
   url: 'https://medium.com/@kaveeshasewmini161/quantum-computing-the-next-tech-revolution-what-you-need-to-know-aac6a7eb7df7',
   image:
-  'public/images/QuantumComputing.png',
+  'my_portfolio/public/images/QuantumComputing.png',
   tags: ['QuantumComputing']
 }
 ];
