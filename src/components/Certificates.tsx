@@ -23,7 +23,7 @@ const certificatesData: Certificate[] = [
   date: 'April 2026',
   url: 'https://www.linkedin.com/learning/certificates/3b0b3a1eeedb7cae2803221c0e81629af20f306f103d5989ee8509404b4004fa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BuQBQhhfjQdO%2Bf375lvL42A%3D%3D',
   image:
-  'public/images/Certificates/DevOpsCertificate.jpg',
+  '/my_portfolio/images/Certificates/DevOpsCertificate.jpg',
   skills: [
   {
     name: 'DevOps',
@@ -37,7 +37,7 @@ const certificatesData: Certificate[] = [
   date: 'March 2026',
   url: 'https://credsverse.com/credentials/a831bf76-e36e-48ef-9bd8-35fb61819359',
   image:
-  'public/images/Certificates/MLE2.png',
+  '/my_portfolio/images/Certificates/MLE2.png',
   skills: [
   {
     name: 'Machine Learning',
@@ -67,7 +67,7 @@ const certificatesData: Certificate[] = [
   date: 'February 2026',
   url: 'https://credsverse.com/credentials/c547d4dd-fd9a-426d-a08b-39124f4661d8',
   image:
-  'public/images/Certificates/MLE1.png',
+  '/my_portfolio/images/Certificates/MLE1.png',
   skills: [
   {
     name: 'Data Preprocessing',
@@ -94,7 +94,7 @@ const certificatesData: Certificate[] = [
   date: 'February 2026',
   url: 'https://drive.google.com/file/d/10PjHJr-6uvAnSGQ3bvogsqrf7DY9FC-_/view?usp=drive_link',
   image:
-  'public/images/Certificates/K8S.png',
+  '/my_portfolio/images/Certificates/K8S.png',
   skills: [
   {
     name: 'Kubernetes Architecture',
@@ -108,7 +108,7 @@ const certificatesData: Certificate[] = [
   date: 'September 2025',
   url: 'https://drive.google.com/file/d/1jTIikYC1Deu0ihKq-GtrbFWH3piVjYbJ/view?usp=drive_link',
   image:
-  'public/images/Certificates/postman.jpg',
+  '/my_portfolio/images/Certificates/postman.jpg',
   skills: [
   {
     name: 'API Testing',
@@ -123,7 +123,7 @@ const certificatesData: Certificate[] = [
   date: 'August 2025',
   url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
   image:
-  'public/images/Certificates/jsin.jpg',
+  '/my_portfolio/images/Certificates/jsin.jpg',
   skills: [
   {
     name: 'JavaScript (Intermediate)',
@@ -137,7 +137,7 @@ const certificatesData: Certificate[] = [
   date: 'August 2025',
   url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
   image:
-  'public/images/Certificates/jsbc.jpg',
+  '/my_portfolio/images/Certificates/jsbc.jpg',
   skills: [
   {
     name: 'JavaScript (Basic)',
@@ -151,7 +151,7 @@ const certificatesData: Certificate[] = [
   date: 'April 2025',
   url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_python-universityofmoratuwa-codl-activity-7318114870774706176-VPls?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   image:
-  'public/images/Certificates/pythonBeg.jpeg',
+  '/my_portfolio/images/Certificates/pythonBeg.jpeg',
   skills: [
   {
     name: 'Python',
@@ -165,7 +165,7 @@ const certificatesData: Certificate[] = [
   date: 'March 2025',
   url: 'https://www.udemy.com/certificate/UC-4adc482f-10d3-4f51-932a-114ea48a7fd4/',
   image:
-  'public/images/Certificates/Bootstrap.jpg',
+  '/my_portfolio/images/Certificates/Bootstrap.jpg',
   skills: [
   {
     name: 'Bootstrap',
@@ -180,7 +180,7 @@ const certificatesData: Certificate[] = [
   date: 'March 2025',
   url: 'https://www.hackerrank.com/certificates/iframe/57a7c021f573',
   image:
-  'public/images/Certificates/CSSBC.png',
+  '/my_portfolio/images/Certificates/CSSBC.png',
   skills: [
   {
     name: 'CSS (Basic)',
@@ -194,7 +194,7 @@ const certificatesData: Certificate[] = [
   date: 'February 2024',
   url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_informationtechnology-certification-pearsonassured-activity-7305250076589764608-Jb6M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   image:
-  'public/images/Certificates/IT.jpeg',
+  '/my_portfolio/images/Certificates/IT.jpeg',
   skills: [
   {
     name: 'CSS',
@@ -209,7 +209,7 @@ const certificatesData: Certificate[] = [
   date: 'July 2023',
   url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_englishproficiency-diplomainenglish-esoftmetrocampus-activity-7305238218608668675-gd53?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   image:
-  'public/images/Certificates/English.jpeg',
+  '/my_portfolio/images/Certificates/English.jpeg',
   skills: [
   {
     name: 'English',

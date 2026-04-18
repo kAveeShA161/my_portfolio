@@ -9,7 +9,7 @@ const projectsData = [
   description:
   'Built a brain tumor classifier using convolutional neural networks (CNNs) to analyze MRI scans and identify tumor types. Focused on data preprocessing, model optimization, and improving prediction accuracy for reliable results.',
   image:
-  'public/images/Brain_Tumor.png',
+  '/my_portfolio/images/Brain_Tumor.png',
   tags: ['Python', 'Flask', 'React', 'TensorFlow', 'Keras', 'CNN', 'Deep Learning', 'Machine Learning', 'Medical Imaging', "Jupyter Notebook", 'Web Development', 'Full-Stack Development', 'Database Management', 'Git'],
   liveUrl: '#',
   githubUrl: 'https://github.com/kAveeShA161/Brain_Tumor_Classifier'
@@ -20,7 +20,7 @@ const projectsData = [
   description:
   'Created Truth Lab, a solution aimed at combating misinformation by analyzing content and providing credibility insights. The project highlights the role of technology in building a more informed and trustworthy digital space.',
   image:
-  'public/images/TruthLab.png',
+  '/my_portfolio/images/TruthLab.png',
   tags: ['React', 'Flask', 'MongoDB','NLP', 'TensorFlow', 'Python', 'Machine Learning', 'Web Development', 'Full-Stack Development', 'Database Management', 'Git', 'Github', 'Figma'],
   liveUrl: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_computerscience-miniproject-artificialintelligence-activity-7444394599189680128-V8ZU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   githubUrl: 'https://github.com/SE5104-Mini-Project-Group-08/TruthLab'
@@ -31,7 +31,7 @@ const projectsData = [
   description:
   'Built a University Sports Management System to manage student registrations, team creation, and sports activities efficiently. Key features include a role-based admin panel, interactive community page, and an online store with inventory management.',
   image:
-  'public/images/SportsMS.png',
+  '/my_portfolio/images/SportsMS.png',
   tags: ['HTML5', 'CSS3', 'JavaScript', 'MySQL', 'PHP', 'Laravel', 'Web Development', 'Full-Stack Development', 'Database Management', 'Git', 'Github', 'Figma'],
   liveUrl: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_webdevelopment-laravel-mysql-activity-7360600358462676993-9zsI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   githubUrl: 'https://github.com/kAveeShA161/Sport_Management_System_WebProject'
@@ -42,7 +42,7 @@ const projectsData = [
   description:
   'A responsive web application designed to provide easy access to healthcare services and medicine ordering. Features include intuitive navigation, an online pharmacy order form, and user registration functionality. Built using HTML and CSS with a focus on simplicity and usability.',
   image:
-  'public/images/MTHospital.png',
+  '/my_portfolio/images/MTHospital.png',
   tags: ['HTML5', 'CSS3', 'Frontend Development', 'Web Development'],
   liveUrl: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_webdevelopment-html-css-activity-7304880146975514625-NLgf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
   githubUrl: 'https://github.com/kAveeShA161/MTHospitalService'
