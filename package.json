@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kAveeShA161.github.io/my_portfolio",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "npx vite",
