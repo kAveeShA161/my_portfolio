@@ -273,7 +273,7 @@ export function Hero() {
               {/* Photo container */}
               <div className="absolute inset-4 z-30 md:inset-5 lg:inset-6 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl">
                 <img
-                  src="/my_portfolio/public/images/KaveehsaSewmini.jpg"
+                  src="/my_portfolio/images/KaveehsaSewmini.jpg"
                   alt="Profile photo"
                   className="w-full h-full object-cover" />
                 
