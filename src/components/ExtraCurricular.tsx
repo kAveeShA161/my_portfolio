@@ -35,10 +35,10 @@ const activitiesData: Activity[] = [
   description:
   'Served as Project Chair for SabraXtreme 3.0 under the IEEE Student Branch of SUSL, leading an organizing committee of 30 members. Directed the planning and execution of multiple initiatives, including an awareness session on IEEEXtreme 19.0 and a workshop on Competitive Programming and Data Structures & Algorithms to prepare participants for the competition. Coordinated with guest speakers, faculty members, and industry professionals to deliver impactful sessions, while ensuring smooth event management and execution. This role strengthened my leadership, team management, event coordination, and communication skills through hands-on experience in organizing large-scale technical events.',
   images: [
-      { src: '/images/ExtraCurricular/SabraXtreme1.jpeg'},
-      { src: '/images/ExtraCurricular/SabraXtreme2.jpeg'},
-      { src: '/images/ExtraCurricular/SabraXtreme4.jpeg'},
-      { src: '/images/ExtraCurricular/SabraXtreme3.jpeg'}
+      { src: 'public/images/ExtraCurricular/SabraXtreme1.jpeg'},
+      { src: 'public/images/ExtraCurricular/SabraXtreme2.jpeg'},
+      { src: 'public/images/ExtraCurricular/SabraXtreme4.jpeg'},
+      { src: 'public/images/ExtraCurricular/SabraXtreme3.jpeg'}
   ]
 },
   {
@@ -50,15 +50,15 @@ const activitiesData: Activity[] = [
   'Served as a Student Branch Ambassador for the global programming competition IEEEXtreme 19.0, organized by IEEE. Represented the SUSL Student Branch in promoting and coordinating participation for an event that engaged over 19,000+ competitors worldwide. This role strengthened my skills in communication, leadership, and event coordination while contributing to the growth of a global tech community through IEEEXtreme 19.0.',
   images: [
   {
-    src: '/images/ExtraCurricular/AmbIEEEXtreme.jpg',
+    src: 'public/images/ExtraCurricular/AmbIEEEXtreme.jpg',
     //caption: 'Team collaboration session at ReactConf 2023'
   },
   {
-    src: '/images/ExtraCurricular/OC.jpeg',
+    src: 'public/images/ExtraCurricular/OC.jpeg',
     //caption: 'Mentoring session with junior developers'
   },
-  {src: '/images/ExtraCurricular/VolunteerDiary.jpeg'},
-  {src: '/images/ExtraCurricular/IEEEXtremeBanner.jpeg'}]
+  {src: 'public/images/ExtraCurricular/VolunteerDiary.jpeg'},
+  {src: 'public/images/ExtraCurricular/IEEEXtremeBanner.jpeg'}]
 
 },
 {
@@ -80,7 +80,7 @@ const activitiesData: Activity[] = [
   'Participated in IEEEXtreme 19.0, a 24-hour global competitive programming challenge involving +19,000 participants worldwide. Competed as part of Team Vistara alongside Sewmini Kumaranayaka and Dasini Jayakody, focusing on solving complex algorithmic and data structure problems under strict time constraints. This experience strengthened my skills in problem-solving, algorithm design, critical thinking, and teamwork under pressure, while improving my ability to collaborate effectively in high-intensity environments.',
   images: [
   {
-    src: '/images/ExtraCurricular/IEEEXtremParticipation.jpg',
+    src: 'public/images/ExtraCurricular/IEEEXtremParticipation.jpg',
     //caption: 'Teaching a weekend coding workshop'
   }]
 },
@@ -93,7 +93,7 @@ const activitiesData: Activity[] = [
   'Recognized as Volunteer of the Month for outstanding contributions to the IEEE Student Branch of Sabaragamuwa University of Sri Lanka in October 2025. Actively engaged in multiple leadership and technical initiatives, including serving as Project Chair of SabraXtreme 3.0, contributing to the design team for IEEE Day 2025 celebrations, and representing the student branch as a Student Ambassador for Innovation Nation Sri Lanka 2025 and Student Branch Ambassador for IEEEXtreme 19.0. These roles involved leading teams, coordinating events, contributing to visual design work, and promoting technical programs within the university community. This recognition reflects consistent dedication to teamwork, leadership, creativity, and active contribution to student-led initiatives.',
   images: [
   {
-    src: '/images/ExtraCurricular/VolOfMon.jpeg'
+    src: 'public/images/ExtraCurricular/VolOfMon.jpeg'
     //caption: 'Teaching a weekend coding workshop'
   }]
 },{
@@ -105,10 +105,10 @@ const activitiesData: Activity[] = [
   'Contributed as a Design Team Member for IEEE Day 2025 under the IEEE Student Branch of Sabaragamuwa University of Sri Lanka. Assisted in designing promotional flyers, creating visual materials and supporting event branding. Worked closely with the organizing team to deliver creative designs that enhanced event engagement and promotion. This experience strengthened my skills in graphic design, teamwork, and creative collaboration.',
   images: [
   {
-    src: '/images/ExtraCurricular/IEEEDay20251.jpeg'
+    src: 'public/images/ExtraCurricular/IEEEDay20251.jpeg'
     //caption: 'Teaching a weekend coding workshop'
   }, 
-  {src: '/images/ExtraCurricular/IEEEDay20252.jpeg'}]
+  {src: 'public/images/ExtraCurricular/IEEEDay20252.jpeg'}]
 },{
   id: 7,
   title: '1st Place Winner',
@@ -118,10 +118,10 @@ const activitiesData: Activity[] = [
   'Awarded 1st Place in the Renewable Energy & Energy Efficiency Poster Design Competition organized by the G17 University Ambassadors Consortium at Wayamba University of Sri Lanka.',
   images: [
   {
-    src: '/images/ExtraCurricular/poster1.jpeg'
+    src: 'public/images/ExtraCurricular/poster1.jpeg'
     //caption: 'Teaching a weekend coding workshop'
   }, 
-  {src: '/images/ExtraCurricular/Poster2.jpeg'}]
+  {src: 'public/images/ExtraCurricular/Poster2.jpeg'}]
 },
 ];
 

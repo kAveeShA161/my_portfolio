@@ -22,7 +22,7 @@ const educationData: EducationItem[] = [
   {
     id: 1,
     institution: 'Sabaragamuwa University of Sri Lanka',
-    logo: '/images/Logo-SUSL.png',
+    logo: 'public/images/Logo-SUSL.png',
     programs: [
       {
         degree: 'BSc(Hons) in Software Engineering',
@@ -41,7 +41,7 @@ const educationData: EducationItem[] = [
 
     id: 2,
     institution: 'ESOFT Metro Campus - Gampaha',
-    logo: '/images/ESOFT_LOGO.png',
+    logo: 'public/images/ESOFT_LOGO.png',
     programs: [
       {
         degree: 'Pearson Assured Diploma in Information Technology',
@@ -112,7 +112,7 @@ const educationData: EducationItem[] = [
 
     id: 3,
     institution: "Rathnavali Girls' College - Gampaha",
-    logo: '/images/RBV_LOGO.jpeg',
+    logo: 'public/images/RBV_LOGO.jpeg',
     programs: [
       {
         degree: 'G.C.E. Advanced Level Examination',
