@@ -4,8 +4,6 @@ A responsive personal portfolio website built with React, TypeScript, Vite, Tail
 
 ## Screenshots
 
-Add project screenshots here after capturing the site.
-
 | Desktop | Mobile |
 | --- | --- |
 | <img width="1900" height="840" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/39da9581-2aad-47a6-a95a-df47210bc40e" /> | <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/b7a80e4a-2d10-4750-8066-2a3b25053e1e" /> |
