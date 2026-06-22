@@ -190,7 +190,7 @@ export function Hero() {
 
             <motion.div
               variants={itemVariants}
-              className="flex items-center gap-4">
+              className="flex items-center gap-4 mb-8 lg:mb-0">
               
               <a
                 href="https://github.com/kAveeShA161"
@@ -284,7 +284,7 @@ export function Hero() {
       </div>
 
       <motion.div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
+        className="relative z-10 mt-8 mb-8 flex justify-center lg:absolute lg:bottom-10 lg:left-1/2 lg:mt-0 lg:mb-0 lg:-translate-x-1/2"
         initial={{
           opacity: 0
         }}
