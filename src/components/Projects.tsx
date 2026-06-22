@@ -5,9 +5,9 @@ import { ExternalLinkIcon, GithubIcon, FilterIcon } from 'lucide-react';
 const projectsData = [
   {
     id: 1,
-    title: 'TaskFlow - AI Powered Task Management App',
+    title: 'TaskFlow',
     description:
-      'Developed and deployed a full-stack task management platform with productivity-focused features including task CRUD operations, dashboard analytics, mood tracking, focus streaks, and AI-powered task planning using Google Gemini API. Implemented secure authentication with JWT, email verification, OTP-based password reset, and deployed the backend on AWS Lambda with the frontend hosted on Vercel. Automated CI/CD workflows using GitHub Actions and optimized delivery through Docker containerization.',
+      'Built a full-stack task management platform with features like task CRUD, dashboard analytics, mood tracking, focus streaks, and AI-powered task planning using Google Gemini API. Implemented secure authentication with JWT, email verification, and OTP-based password reset, and deployed using AWS Lambda and Vercel with CI/CD automation via GitHub Actions and Docker.',
     image:
       '/my_portfolio/images/TaskFlow_Image.png',
     tags: ['React', 'Vite', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT', 'bcryptjs', 'Cookie Parser', 'Google Gemini API', 'AWS Lambda', 'Vercel', 'GitHub Actions', 'Docker', 'CI/CD', 'REST API', 'Full-Stack Development', 'Authentication', 'Cloud Deployment'],
@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: 'Maternal & Child Health Management System - Ongoing Project',
     description:
-      'Developing a full-stack healthcare management platform to digitize paper-based maternal and child health records and streamline healthcare operations for the MOH Office, Imbulpe, Sri Lanka. Built responsive and user-friendly interfaces to replace manual paperwork and improve patient data management efficiency for healthcare staff. Implemented secure authentication, encrypted data handling, RESTful APIs, validation, and scalable database architecture to ensure data integrity and system reliability.',
+      'Built a full-stack healthcare management system to digitize maternal and child health records and improve healthcare operations for MOH Office, Imbulpe, Sri Lanka. Designed responsive interfaces for efficient patient data handling and implemented secure authentication, encrypted data processing, REST APIs, and scalable database architecture to ensure reliability and data integrity.',
     image:
       '/my_portfolio/images/MOH_Imbulpe.png',
     tags: ['React','TypeScript','Vite','Node.js','Express.js','PostgreSQL','Prisma','Tailwind CSS','Radix UI','JWT','REST API','Zod','Authentication','Data Security','Healthcare Technology','Full-Stack Development','Team Leadership','Database Management'],
