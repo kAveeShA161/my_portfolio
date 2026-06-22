@@ -1,9 +1,8 @@
-import { useMemo, type MouseEvent } from 'react';
+import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import {
   GithubIcon,
   LinkedinIcon,
-  ArrowDownIcon,
   DownloadIcon,
   MailIcon } from
 'lucide-react';
@@ -85,18 +84,6 @@ function ShiningParticles() {
 
 }
 export function Hero() {
-  const scrollToEducation = (e: MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    const element = document.querySelector('#education');
-    if (element) {
-      const offsetTop =
-      element.getBoundingClientRect().top + window.scrollY - 80;
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  };
   const containerVariants = {
     hidden: {
       opacity: 0
@@ -283,41 +270,6 @@ export function Hero() {
         </div>
       </div>
 
-      <motion.div
-        className="relative z-10 mt-8 mb-8 flex justify-center lg:absolute lg:bottom-10 lg:left-1/2 lg:mt-0 lg:mb-0 lg:-translate-x-1/2"
-        initial={{
-          opacity: 0
-        }}
-        animate={{
-          opacity: 1
-        }}
-        transition={{
-          delay: 1.5,
-          duration: 1
-        }}>
-        
-        <a
-          href="#education"
-          onClick={scrollToEducation}
-          className="flex flex-col items-center text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">
-          
-          <span className="text-xs uppercase tracking-widest mb-2 font-medium">
-            Scroll
-          </span>
-          <motion.div
-            animate={{
-              y: [0, 8, 0]
-            }}
-            transition={{
-              repeat: Infinity,
-              duration: 1.5,
-              ease: 'easeInOut'
-            }}>
-            
-            <ArrowDownIcon size={16} />
-          </motion.div>
-        </a>
-      </motion.div>
     </section>);
 
 }
