@@ -33,7 +33,7 @@ const projectsData = [
     image:
       '/my_portfolio/images/Brain_Tumor.png',
     tags: ['Python', 'Flask', 'React', 'TensorFlow', 'Keras', 'CNN', 'Deep Learning', 'Machine Learning', 'Medical Imaging', "Jupyter Notebook", 'Web Development', 'Full-Stack Development', 'Database Management', 'Git'],
-    liveUrl: '#',
+    liveUrl: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_deeplearning-machinelearning-computervision-activity-7452012026349944832-1_7K?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
     githubUrl: 'https://github.com/kAveeShA161/Brain_Tumor_Classifier'
   },
   {
