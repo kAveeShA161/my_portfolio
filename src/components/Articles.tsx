@@ -21,6 +21,30 @@ interface Article {
 const articlesData: Article[] = [
 {
   id: 1,
+  title: '𝗔𝗜-𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗖𝗼𝗱𝗲: 𝗛𝗼𝘄 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 𝗖𝗼𝗱𝗶𝗻𝗴',
+  excerpt:
+  "This article explains how software development has evolved with the rise of AI. It covers how coding was done before AI, how AI tools are now assisting developers, and the benefits and risks of AI-generated code in modern software engineering.",
+  date: 'Jun 04, 2026',
+  readTime: '6 min read',
+  url: 'https://medium.com/@ieeewiesusl/how-artificial-intelligence-changed-coding-0528354f6594',
+  image:
+  '/my_portfolio/images/AI-CODING.png',
+  tags: ['AI', 'Coding', 'GenAI']
+},
+{
+  id: 2,
+  title: 'Understanding APIs and Communication Technologies',
+  excerpt:
+  "In this article, I’ve broken down how APIs and communication technologies work in modern web applications. I’ve explained the core concepts in a simple, beginner-friendly way, showing how different systems communicate and exchange data efficiently.",
+  date: 'Apr 25, 2026',
+  readTime: '11 min read',
+  url: 'https://medium.com/@kaveeshasewmini161/understanding-apis-and-communication-technologies-the-backbone-of-modern-software-communication-22e037d54b9c',
+  image:
+  '/my_portfolio/images/API.png',
+  tags: ['APIs', 'Web Development', 'Communication']
+},
+  {
+  id: 3,
   title: 'What is Docker Compose? How to Dockerize a MERN Application',
   excerpt:
   "In this article, I’ve broken down how Docker Compose helps us manage multiple containers (client, server, and database) using just one file and one command.To keep things simple, I’ve used a MERN application as an example and explained everything step by step in a beginner-friendly way.",
@@ -32,7 +56,7 @@ const articlesData: Article[] = [
   tags: ['Docker', 'DockerCompose']
 },
 {
-  id: 2,
+  id: 4,
   title: 'What is a Docker Volume? Build your first Docker Volume',
   excerpt:
   'A practical article that explores how Docker Volumes solve critical challenges like data loss and lack of real-time updates in containerized applications. Covers volume types, essential commands, and demonstrates how tools like Nodemon enable efficient live development workflows.',
@@ -44,7 +68,7 @@ const articlesData: Article[] = [
   tags: ['Docker', 'DockerVolume']
 },
 {
-  id: 3,
+  id: 5,
   title: 'Top 15 Docker Commands Every Beginner Should Know',
   excerpt:
   'A comprehensive guide designed to help developers master essential Docker CLI commands for building images, running containers, monitoring system status, and maintaining a clean development environment. Focused on simplifying containerization for beginners.',
@@ -56,7 +80,7 @@ const articlesData: Article[] = [
   tags: ['Docker', 'DockerCommands']
 },
 {
-  id: 4,
+  id: 6,
   title: 'What is a Dockerfile? How to Create Your First Docker Image (Step-by-Step Guide)',
   excerpt:
   'A hands-on guide that walks through creating and using Dockerfiles to build and run containerized applications. Demonstrates key instructions and explains the concept of Docker images as static snapshots, emphasizing the need for rebuilding when code changes.',
@@ -68,7 +92,7 @@ const articlesData: Article[] = [
   tags: ['Docker', 'Dockerfile']
 },
 {
-  id: 5,
+  id: 7,
   title: 'Understanding Docker Architecture',
   excerpt:
   'A detailed guide that explains the core components of Docker, including the Client, Daemon, Host, Registry, Images, Containers, and Volumes. The article breaks down the complete workflow from Dockerfile to running containers, helping beginners build a solid foundation in containerization and DevOps.',
@@ -80,7 +104,7 @@ const articlesData: Article[] = [
   tags: ['Docker', 'DockerArchitecture']
 },
 {
-  id: 6,
+  id: 8,
   title: 'Understanding Docker: Containers vs Virtual Machines',
   excerpt:
   'A beginner-friendly guide that explains the fundamentals of Docker and compares containers with traditional virtual machines. The article highlights how containerization improves efficiency, consistency, and portability in modern software development.',
@@ -91,7 +115,7 @@ const articlesData: Article[] = [
   '/my_portfolio/images/Dockerintro.png',
   tags: ['Docker']
 },{
-  id: 7,
+  id: 9,
   title: 'Bcrypt Password Verification in Python',
   excerpt:
   'A cybersecurity-focused article that explains secure password hashing using bcrypt. Covers key concepts such as salting, key stretching, and secure verification techniques, along with practical Python implementation examples to demonstrate modern authentication best practices.',
@@ -103,7 +127,7 @@ const articlesData: Article[] = [
   tags: ['Python', 'Bcrypt']
 },
 {
-  id: 8,
+  id: 10,
   title: 'Tuple Packing & Unpacking in Python',
   excerpt:
   'A beginner-friendly article that explains how tuples work in Python, including tuple creation, nested tuples, and the concepts of packing and unpacking. Demonstrates how to efficiently assign and extract values while avoiding common errors.',
@@ -115,7 +139,7 @@ const articlesData: Article[] = [
   tags: ['Python', 'Tuple']
 },
 {
-  id: 9,
+  id: 11,
   title: 'Quantum Computing: The Next Tech Revolution — What You Need to Know',
   excerpt:
   'A beginner-friendly article that explores the fundamentals of quantum computing, including qubits and superposition, and discusses its potential impact on areas such as cryptography, AI, and drug discovery, along with current challenges and future possibilities.',
