@@ -16,207 +16,247 @@ interface Certificate {
   skills: CertificateSkill[];
 }
 const certificatesData: Certificate[] = [
-{
-  id: 1,
-  name: 'DevOps Foundations',
-  issuer: 'LinkedIn Learning',
-  date: 'April 2026',
-  url: 'https://www.linkedin.com/learning/certificates/3b0b3a1eeedb7cae2803221c0e81629af20f306f103d5989ee8509404b4004fa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BuQBQhhfjQdO%2Bf375lvL42A%3D%3D',
-  image:
-  '/my_portfolio/images/Certificates/DevOpsCertificate.jpg',
-  skills: [
   {
-    name: 'DevOps',
-    //level: 'Basic'
-  }]
-},
-{
-  id: 2,
-  name: 'CMLE - Certified Machine Learning Engineer L2',
-  issuer: 'Noob Dev',
-  date: 'March 2026',
-  url: 'https://credsverse.com/credentials/a831bf76-e36e-48ef-9bd8-35fb61819359',
-  image:
-  '/my_portfolio/images/Certificates/MLE2.png',
-  skills: [
-  {
-    name: 'Machine Learning',
-    //level: 'A'
-  },
-  {
-    name: 'Association Rule Learning',
-    //level: 'Advanced'
-  },
-  {
-    name: 'Unsupervised Learning',
-    //level: 'Advanced'
-  },
-  {
-    name: 'Data Preprocessing',
-    //level: 'Intermediate'
-  },
-  {name: 'Data Exploitation'},
-  {name: 'Model Evaluation'}
-]
+    id: 1,
+    name: 'ML Engineer Level 3 - Gold',
+    issuer: 'Noob Dev',
+    date: 'April 2026',
+    url: 'https://credsverse.com/credentials/eea8ab5e-e08c-4277-ad3d-72bb1eb4dac8',
+    image:
+      '/my_portfolio/images/Certificates/MLE3.png',
+    skills: [
+      {
+        name: 'Machine Learning',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Machine Learning Algorithms',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Data Preprocessing',
+        //level: 'Intermediate'
+      },
+      {
+        name: 'Evaluation Strategy',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Model Building',
+        //level: 'Intermediate'
+      },
+      {
+        name: 'Full Stack Development',
+        //level: 'Intermediate'
+      },
+      {
+        name: 'Deep Learning',
+        //level: 'Intermediate'
+      }
+    ]
 
-},
-{
-  id: 3,
-  name: 'ML Engineer - Level 1',
-  issuer: 'Noob Dev',
-  date: 'February 2026',
-  url: 'https://credsverse.com/credentials/c547d4dd-fd9a-426d-a08b-39124f4661d8',
-  image:
-  '/my_portfolio/images/Certificates/MLE1.png',
-  skills: [
-  {
-    name: 'Data Preprocessing',
-    //level: 'Advanced'
   },
   {
-    name: 'Regression Modelling',
-    //level: 'Advanced'
+    id: 2,
+    name: 'DevOps Foundations',
+    issuer: 'LinkedIn Learning',
+    date: 'April 2026',
+    url: 'https://www.linkedin.com/learning/certificates/3b0b3a1eeedb7cae2803221c0e81629af20f306f103d5989ee8509404b4004fa/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BuQBQhhfjQdO%2Bf375lvL42A%3D%3D',
+    image:
+      '/my_portfolio/images/Certificates/DevOpsCertificate.jpg',
+    skills: [
+      {
+        name: 'DevOps',
+        //level: 'Basic'
+      }]
   },
   {
-    name: 'Model Evaluation',
-    //level: 'Intermediate'
-  },
-  {
-    name: 'Supervised Learning',
-    //level: 'Advanced'
-  }]
+    id: 3,
+    name: 'CMLE - Certified Machine Learning Engineer L2',
+    issuer: 'Noob Dev',
+    date: 'March 2026',
+    url: 'https://credsverse.com/credentials/a831bf76-e36e-48ef-9bd8-35fb61819359',
+    image:
+      '/my_portfolio/images/Certificates/MLE2.png',
+    skills: [
+      {
+        name: 'Machine Learning',
+        //level: 'A'
+      },
+      {
+        name: 'Association Rule Learning',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Unsupervised Learning',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Data Preprocessing',
+        //level: 'Intermediate'
+      },
+      { name: 'Data Exploitation' },
+      { name: 'Model Evaluation' }
+    ]
 
-},
-{
-  id: 4,
-  name: 'Kubernetes From 10000 Feet',
-  issuer: 'CoDeKu DevOps Academy',
-  date: 'February 2026',
-  url: 'https://drive.google.com/file/d/10PjHJr-6uvAnSGQ3bvogsqrf7DY9FC-_/view?usp=drive_link',
-  image:
-  '/my_portfolio/images/Certificates/K8S.png',
-  skills: [
+  },
   {
-    name: 'Kubernetes Architecture',
-    //level: 'Advanced'
-  }]
-},
-{
-  id: 5,
-  name: 'Postman API Fundamentals Student Expert',
-  issuer: 'Postman',
-  date: 'September 2025',
-  url: 'https://drive.google.com/file/d/1jTIikYC1Deu0ihKq-GtrbFWH3piVjYbJ/view?usp=drive_link',
-  image:
-  '/my_portfolio/images/Certificates/postman.jpg',
-  skills: [
+    id: 4,
+    name: 'ML Engineer - Level 1',
+    issuer: 'Noob Dev',
+    date: 'February 2026',
+    url: 'https://credsverse.com/credentials/c547d4dd-fd9a-426d-a08b-39124f4661d8',
+    image:
+      '/my_portfolio/images/Certificates/MLE1.png',
+    skills: [
+      {
+        name: 'Data Preprocessing',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Regression Modelling',
+        //level: 'Advanced'
+      },
+      {
+        name: 'Model Evaluation',
+        //level: 'Intermediate'
+      },
+      {
+        name: 'Supervised Learning',
+        //level: 'Advanced'
+      }]
+
+  },
   {
-    name: 'API Testing',
-    //level: 'Advanced'
-  }, 
-  {name: 'Postman'}]
-},
-{
-  id: 6,
-  name: 'JavaScript (Intermediate)',
-  issuer: 'HackerRank',
-  date: 'August 2025',
-  url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
-  image:
-  '/my_portfolio/images/Certificates/jsin.jpg',
-  skills: [
+    id: 5,
+    name: 'Kubernetes From 10000 Feet',
+    issuer: 'CoDeKu DevOps Academy',
+    date: 'February 2026',
+    url: 'https://drive.google.com/file/d/10PjHJr-6uvAnSGQ3bvogsqrf7DY9FC-_/view?usp=drive_link',
+    image:
+      '/my_portfolio/images/Certificates/K8S.png',
+    skills: [
+      {
+        name: 'Kubernetes Architecture',
+        //level: 'Advanced'
+      }]
+  },
   {
+    id: 6,
+    name: 'Postman API Fundamentals Student Expert',
+    issuer: 'Postman',
+    date: 'September 2025',
+    url: 'https://drive.google.com/file/d/1jTIikYC1Deu0ihKq-GtrbFWH3piVjYbJ/view?usp=drive_link',
+    image:
+      '/my_portfolio/images/Certificates/postman.jpg',
+    skills: [
+      {
+        name: 'API Testing',
+        //level: 'Advanced'
+      },
+      { name: 'Postman' }]
+  },
+  {
+    id: 7,
     name: 'JavaScript (Intermediate)',
-    //level: 'Advanced'
-  }]
-},
-{
-  id: 7,
-  name: 'JavaScript (Basic)',
-  issuer: 'HackerRank',
-  date: 'August 2025',
-  url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
-  image:
-  '/my_portfolio/images/Certificates/jsbc.jpg',
-  skills: [
+    issuer: 'HackerRank',
+    date: 'August 2025',
+    url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
+    image:
+      '/my_portfolio/images/Certificates/jsin.jpg',
+    skills: [
+      {
+        name: 'JavaScript (Intermediate)',
+        //level: 'Advanced'
+      }]
+  },
   {
+    id: 8,
     name: 'JavaScript (Basic)',
-    //level: 'Advanced'
-  }]
-},
-{
-  id: 8,
-  name: 'Python for Beginners',
-  issuer: 'University of Moratuwa - CODL',
-  date: 'April 2025',
-  url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_python-universityofmoratuwa-codl-activity-7318114870774706176-VPls?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
-  image:
-  '/my_portfolio/images/Certificates/pythonBeg.jpeg',
-  skills: [
-  {
-    name: 'Python',
-    //level: 'Advanced'
-  }]
-},
-{
-  id: 9,
-  name: 'Bootstrap Mastery',
-  issuer: 'Udemy',
-  date: 'March 2025',
-  url: 'https://www.udemy.com/certificate/UC-4adc482f-10d3-4f51-932a-114ea48a7fd4/',
-  image:
-  '/my_portfolio/images/Certificates/Bootstrap.jpg',
-  skills: [
-  {
-    name: 'Bootstrap',
-    //level: 'Advanced'
+    issuer: 'HackerRank',
+    date: 'August 2025',
+    url: 'https://www.hackerrank.com/certificates/iframe/b08eff78458a',
+    image:
+      '/my_portfolio/images/Certificates/jsbc.jpg',
+    skills: [
+      {
+        name: 'JavaScript (Basic)',
+        //level: 'Advanced'
+      }]
   },
-  { name: 'Responsive Web Design' }]
-},
-{
-  id: 10,
-  name: 'CSS (Basic)',
-  issuer: 'HackerRank',
-  date: 'March 2025',
-  url: 'https://www.hackerrank.com/certificates/iframe/57a7c021f573',
-  image:
-  '/my_portfolio/images/Certificates/CSSBC.png',
-  skills: [
   {
+    id: 9,
+    name: 'Python for Beginners',
+    issuer: 'University of Moratuwa - CODL',
+    date: 'April 2025',
+    url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_python-universityofmoratuwa-codl-activity-7318114870774706176-VPls?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
+    image:
+      '/my_portfolio/images/Certificates/pythonBeg.jpeg',
+    skills: [
+      {
+        name: 'Python',
+        //level: 'Advanced'
+      }]
+  },
+  {
+    id: 10,
+    name: 'Bootstrap Mastery',
+    issuer: 'Udemy',
+    date: 'March 2025',
+    url: 'https://www.udemy.com/certificate/UC-4adc482f-10d3-4f51-932a-114ea48a7fd4/',
+    image:
+      '/my_portfolio/images/Certificates/Bootstrap.jpg',
+    skills: [
+      {
+        name: 'Bootstrap',
+        //level: 'Advanced'
+      },
+      { name: 'Responsive Web Design' }]
+  },
+  {
+    id: 11,
     name: 'CSS (Basic)',
-    //level: 'Advanced'
-  }]
-},
-{
-  id: 11,
-  name: 'Diploma in Information Technology',
-  issuer: 'Pearson',
-  date: 'February 2024',
-  url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_informationtechnology-certification-pearsonassured-activity-7305250076589764608-Jb6M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
-  image:
-  '/my_portfolio/images/Certificates/IT.jpeg',
-  skills: [
-  {
-    name: 'CSS',
-    //level: 'Advanced'
+    issuer: 'HackerRank',
+    date: 'March 2025',
+    url: 'https://www.hackerrank.com/certificates/iframe/57a7c021f573',
+    image:
+      '/my_portfolio/images/Certificates/CSSBC.png',
+    skills: [
+      {
+        name: 'CSS (Basic)',
+        //level: 'Advanced'
+      }]
   },
-  {name : 'HTML'}, {name: 'MySQL'}, {name: 'Python'}, {name: 'C#'}, {name: 'Adobe Photoshop'}, {name: 'MS Office'}]
-},
-{
-  id: 12,
-  name: 'Diploma in English',
-  issuer: 'Pearson',
-  date: 'July 2023',
-  url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_englishproficiency-diplomainenglish-esoftmetrocampus-activity-7305238218608668675-gd53?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
-  image:
-  '/my_portfolio/images/Certificates/English.jpeg',
-  skills: [
   {
-    name: 'English',
-    //level: 'Advanced'
+    id: 12,
+    name: 'Diploma in Information Technology',
+    issuer: 'Pearson',
+    date: 'February 2024',
+    url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_informationtechnology-certification-pearsonassured-activity-7305250076589764608-Jb6M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
+    image:
+      '/my_portfolio/images/Certificates/IT.jpeg',
+    skills: [
+      {
+        name: 'CSS',
+        //level: 'Advanced'
+      },
+      { name: 'HTML' }, { name: 'MySQL' }, { name: 'Python' }, { name: 'C#' }, { name: 'Adobe Photoshop' }, { name: 'MS Office' }]
   },
-  {name: 'Spoken English'}]
-}
+  {
+    id: 13,
+    name: 'Diploma in English',
+    issuer: 'Pearson',
+    date: 'July 2023',
+    url: 'https://www.linkedin.com/posts/kaveesha-sewmini-6862142b7_englishproficiency-diplomainenglish-esoftmetrocampus-activity-7305238218608668675-gd53?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEwHN8YBMimIh3vAIEjxbD3AuPRmZysgmZM',
+    image:
+      '/my_portfolio/images/Certificates/English.jpeg',
+    skills: [
+      {
+        name: 'English',
+        //level: 'Advanced'
+      },
+      { name: 'Spoken English' }]
+  }
 ];
 
 function ModalParticles() {
@@ -283,7 +323,7 @@ function CertificateCard({
 
 
 
-}: {cert: Certificate;index: number;onPreview: (cert: Certificate) => void;}) {
+}: { cert: Certificate; index: number; onPreview: (cert: Certificate) => void; }) {
   const [isExpanded, setIsExpanded] = useState(false);
   return (
     <motion.div
@@ -304,13 +344,13 @@ function CertificateCard({
         delay: index * 0.1
       }}
       className="group bg-slate-50 dark:bg-slate-900/50 rounded-2xl overflow-hidden border border-slate-100 dark:border-slate-800/50 hover:border-accent-500/50 dark:hover:border-accent-500/50 transition-colors">
-      
+
       {/* Certificate Preview Image */}
       <button
         onClick={() => onPreview(cert)}
         className="relative w-full h-44 overflow-hidden cursor-pointer block"
         aria-label={`Preview ${cert.name} certificate`}>
-        
+
         <div className="absolute inset-0 bg-slate-900/30 group-hover:bg-slate-900/10 transition-colors z-10 flex items-center justify-center">
           <span className="px-4 py-2 rounded-full bg-white/90 dark:bg-slate-900/90 text-sm font-medium text-slate-700 dark:text-slate-200 opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm">
             Click to preview
@@ -320,7 +360,7 @@ function CertificateCard({
           src={cert.image}
           alt={cert.name}
           className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
-        
+
       </button>
 
       <div className="p-6">
@@ -334,7 +374,7 @@ function CertificateCard({
             rel="noopener noreferrer"
             className="flex-shrink-0 text-slate-400 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
             aria-label={`View ${cert.name} credential`}>
-            
+
             <ExternalLinkIcon size={18} />
           </a>
         </div>
@@ -350,7 +390,7 @@ function CertificateCard({
         <button
           onClick={() => setIsExpanded(!isExpanded)}
           className="inline-flex items-center gap-2 text-sm font-semibold text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors">
-          
+
           {isExpanded ? 'Hide' : 'View'} Skills Gained
           <motion.span
             animate={{
@@ -360,50 +400,50 @@ function CertificateCard({
               duration: 0.3
             }}
             className="inline-flex">
-            
+
             <ChevronDownIcon size={16} />
           </motion.span>
         </button>
 
         <AnimatePresence>
           {isExpanded &&
-          <motion.div
-            initial={{
-              height: 0,
-              opacity: 0
-            }}
-            animate={{
-              height: 'auto',
-              opacity: 1
-            }}
-            exit={{
-              height: 0,
-              opacity: 0
-            }}
-            transition={{
-              duration: 0.35,
-              ease: [0.22, 1, 0.36, 1]
-            }}
-            className="overflow-hidden">
-            
+            <motion.div
+              initial={{
+                height: 0,
+                opacity: 0
+              }}
+              animate={{
+                height: 'auto',
+                opacity: 1
+              }}
+              exit={{
+                height: 0,
+                opacity: 0
+              }}
+              transition={{
+                duration: 0.35,
+                ease: [0.22, 1, 0.36, 1]
+              }}
+              className="overflow-hidden">
+
               <div className="pt-4 mt-4 border-t border-slate-200 dark:border-slate-800 space-y-2.5">
                 {cert.skills.map((skill, sIndex) =>
-              <motion.div
-                key={skill.name}
-                initial={{
-                  opacity: 0,
-                  x: -10
-                }}
-                animate={{
-                  opacity: 1,
-                  x: 0
-                }}
-                transition={{
-                  duration: 0.3,
-                  delay: sIndex * 0.05
-                }}
-                className="flex items-center justify-between gap-3 bg-white dark:bg-slate-800/50 rounded-xl px-4 py-2.5 border border-slate-100 dark:border-slate-700/50">
-                
+                  <motion.div
+                    key={skill.name}
+                    initial={{
+                      opacity: 0,
+                      x: -10
+                    }}
+                    animate={{
+                      opacity: 1,
+                      x: 0
+                    }}
+                    transition={{
+                      duration: 0.3,
+                      delay: sIndex * 0.05
+                    }}
+                    className="flex items-center justify-between gap-3 bg-white dark:bg-slate-800/50 rounded-xl px-4 py-2.5 border border-slate-100 dark:border-slate-700/50">
+
                     <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
                       {skill.name}
                     </span>
@@ -411,7 +451,7 @@ function CertificateCard({
                       {skill.level}
                     </span>*/}
                   </motion.div>
-              )}
+                )}
               </div>
             </motion.div>
           }
@@ -426,7 +466,7 @@ function CertificateModal({
 
 
 
-}: {cert: Certificate;onClose: () => void;}) {
+}: { cert: Certificate; onClose: () => void; }) {
   return (
     <motion.div
       initial={{
@@ -440,7 +480,7 @@ function CertificateModal({
       }}
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
       onClick={onClose}>
-      
+
       <motion.div
         initial={{
           scale: 0.85,
@@ -460,13 +500,13 @@ function CertificateModal({
         }}
         className="relative max-w-3xl w-full"
         onClick={(e) => e.stopPropagation()}>
-        
+
         {/* Close Button */}
         <button
           onClick={onClose}
           className="absolute -top-12 right-0 p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors z-20"
           aria-label="Close preview">
-          
+
           <XIcon size={24} />
         </button>
 
@@ -482,7 +522,7 @@ function CertificateModal({
             src={cert.image}
             alt={cert.name}
             className="w-full h-auto object-cover" />
-          
+
         </div>
 
         {/* Info below */}
@@ -505,15 +545,15 @@ export function Certificates() {
       <SectionHeader
         title="Certifications"
         subtitle="Professional credentials and continuous learning achievements." />
-      
+
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-6 gap-5">
         {certificatesData.map((cert, index) =>
-        <CertificateCard
-          key={cert.id}
-          cert={cert}
-          index={index}
-          onPreview={setPreviewCert} />
+          <CertificateCard
+            key={cert.id}
+            cert={cert}
+            index={index}
+            onPreview={setPreviewCert} />
 
         )}
       </div>
@@ -521,9 +561,9 @@ export function Certificates() {
       {/* Full Preview Modal */}
       <AnimatePresence>
         {previewCert &&
-        <CertificateModal
-          cert={previewCert}
-          onClose={() => setPreviewCert(null)} />
+          <CertificateModal
+            cert={previewCert}
+            onClose={() => setPreviewCert(null)} />
 
         }
       </AnimatePresence>
