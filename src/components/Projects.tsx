@@ -217,7 +217,7 @@ export function Projects() {
                     className="flex items-center gap-2 text-sm font-medium text-slate-900 dark:text-white hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
 
                     <ExternalLinkIcon size={16} />
-                    Live Demo
+                    Project Demo
                   </a>
                   <a
                     href={project.githubUrl}
