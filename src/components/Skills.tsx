@@ -130,18 +130,51 @@ function SkillIcon({ name }: {name: string;}) {
 
     HTML: <Code2Icon size={size} />,
     CSS: <Code2Icon size={size} />,
+    HTML5:
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413H5.41l.213 2.622h12.75l.217-2.622zm-.482 5.118H5.884l.696 7.81 5.397 1.501 5.417-1.5.714-7.811zm-3.38 3.306l-.242 2.69-2.486.67-2.48-.67-.16-1.797H6.92l.31 3.475 4.77 1.324 4.78-1.324.645-7.187H6.525l.224 2.819h7.98z" />
+      </svg>,
+    CSS3:
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.083 4.413H5.417l.213 2.622h10.124l-.242 2.708H5.872l.213 2.622h9.203l-.309 3.458-2.986.806-2.982-.806-.19-2.132H6.135l.362 4.066L12 19.287l5.51-1.53.743-8.307H8.52l-.22-2.415h10.065l.218-2.622z" />
+      </svg>,
+    Angular:
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.042L1.79 5.685l1.56 13.552L12 24l8.65-4.763 1.56-13.552L12 2.042zm0 2.312l6.39 14.333h-2.384l-1.29-3.226H9.288l-1.29 3.226H5.614L12 4.354zm0 4.816l-1.912 4.6h3.824L12 9.17z" />
+      </svg>,
+    Bootstrap:
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6.002 0h11.996C21.313 0 24 2.687 24 6.002v11.996C24 21.313 21.313 24 17.998 24H6.002C2.687 24 0 21.313 0 17.998V6.002C0 2.687 2.687 0 6.002 0zm3.31 6.01v11.98h5.35c2.39 0 4.03-1.22 4.03-3.35 0-1.56-.98-2.66-2.42-2.86v-.08c1.05-.25 1.86-1.2 1.86-2.52 0-1.97-1.51-3.17-3.88-3.17H9.312zm2.55 1.98h1.98c1.1 0 1.7.52 1.7 1.45 0 .98-.72 1.54-1.97 1.54h-1.71V7.99zm0 4.86h2.02c1.42 0 2.16.55 2.16 1.6 0 1.08-.72 1.62-2.13 1.62h-2.05v-3.22z" />
+      </svg>,
     Java: <Code2Icon size={size} />,
-    JavaScript: <Code2Icon size={size} />,
+    JavaScript:
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+        <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9l1.755-1.125c-.27-.42-.405-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.69.811 1.11 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.045.066zm-8.983-7.245h-2.248v5.805c0 1.236.063 2.37-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l-.004-.056z" />
+      </svg>,
     PHP: <Code2Icon size={size} />,
+    'PHP (Laravel)': <Code2Icon size={size} />,
     Laravel: <Code2Icon size={size} />,
     Flask: <Code2Icon size={size} />,
+    'Express.js': <Code2Icon size={size} />,
+    'Spring Boot': <Code2Icon size={size} />,
     MySQL: <DatabaseIcon size={size} />,
+    'MongoDB (Mongoose)': <DatabaseIcon size={size} />,
     GitHub: <WrenchIcon size={size} />,
     Postman: <WrenchIcon size={size} />,
     JUnit: <WrenchIcon size={size} />,
+    'Docker Compose': <WrenchIcon size={size} />,
+    Kubernetes: <WrenchIcon size={size} />,
+    'AWS EC2': <WrenchIcon size={size} />,
     'Adobe Photoshop': <WrenchIcon size={size} />,
     'Machine Learning': <BrainCircuitIcon size={size} />,
     'Deep Learning': <BrainCircuitIcon size={size} />,
+    'TensorFlow/Keras': <BrainCircuitIcon size={size} />,
+    'Scikit-Learn': <BrainCircuitIcon size={size} />,
+    NumPy: <BrainCircuitIcon size={size} />,
+    Pandas: <BrainCircuitIcon size={size} />,
+    'RESTful APIs': <Code2Icon size={size} />,
+    'JWT Authentication': <Code2Icon size={size} />,
+    Axios: <Code2Icon size={size} />,
     'Web Design': <LayoutIcon size={size} />,
     'Full-Stack Development': <Code2Icon size={size} />,
     'Frontend Development': <LayoutIcon size={size} />,
@@ -167,12 +200,24 @@ function SkillIcon({ name }: {name: string;}) {
 }
 const skillCategories = [
 {
+  title: 'Programming Languages',
+  icon: <Code2Icon className="w-6 h-6" />,
+  skills: [
+  'Java',
+  'JavaScript',
+  'TypeScript',
+  'Python']
+
+},
+{
   title: 'Frontend Development',
   icon: <LayoutIcon className="w-6 h-6" />,
   skills: [
   'React',
-  'HTML',
-  'CSS',
+  'Angular',
+  'HTML5',
+  'CSS3',
+  'Bootstrap',
   'Tailwind CSS']
 
 },
@@ -180,45 +225,57 @@ const skillCategories = [
   title: 'Backend Development',
   icon: <DatabaseIcon className="w-6 h-6" />,
   skills: [
-  'Java',
-  'JavaScript',
   'Node.js',
-  'Express',
-  'PHP',
-  'Laravel',
-  'Python',
+  'Express.js',
   'Flask',
-  'MySQL',
-  'PostgreSQL',
-  'MongoDB']
+  'PHP (Laravel)',
+  'Spring Boot']
 
 },
 {
-  title: 'Tools & DevOps',
-  icon: <WrenchIcon className="w-6 h-6" />,
+  title: 'Databases',
+  icon: <DatabaseIcon className="w-6 h-6" />,
   skills: [
-  'Git',
-  'GitHub',
-  'Docker',
-  'CI/CD',
-  'Figma',
-  'Postman',
-  'JUnit',
-  'Adobe Photoshop']
+  'MongoDB (Mongoose)',
+  'MySQL',
+  'PostgreSQL']
 
 },
 {
-  title: 'Core Concepts',
+  title: 'Machine Learning & AI',
   icon: <BrainCircuitIcon className="w-6 h-6" />,
   skills: [
-  'Machine Learning',
-  'Deep Learning',
-  'Web Design',
-  'Full-Stack Development',
-  'Frontend Development',
-  'Backend Development',
-  'Responsive Design',
-  'Data Structures & Algorithms']
+  'Python',
+  'TensorFlow/Keras',
+  'Scikit-Learn',
+  'NumPy',
+  'Pandas']
+
+},
+{
+  title: 'DevOps & Tools',
+  icon: <WrenchIcon className="w-6 h-6" />,
+  skills: [
+  'Docker',
+  'Docker Compose',
+  'Kubernetes',
+  'Git',
+  'GitHub',
+  'CI/CD',
+  'AWS EC2',
+  'Postman',
+  'Figma',
+  'Adobe Photoshop',
+  'JUnit']
+
+},
+{
+  title: 'APIs & Auth',
+  icon: <Code2Icon className="w-6 h-6" />,
+  skills: [
+  'RESTful APIs',
+  'JWT Authentication',
+  'Axios']
 
 },
 {
