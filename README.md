@@ -8,27 +8,13 @@ Add project screenshots here after capturing the site.
 
 | Desktop | Mobile |
 | --- | --- |
-| `<img width="1900" height="840" alt="image" src="https://github.com/user-attachments/assets/39da9581-2aad-47a6-a95a-df47210bc40e" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9d64a62a-b8cd-403d-aeb4-ecd70f6285ee" />
-` |
-| `<img width="1898" height="842" alt="image" src="https://github.com/user-attachments/assets/89ca4f74-764b-45ee-94c4-a11a9b49d2a2" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/b64a4a82-e432-4a6b-ae1f-59cb82152b84" />
-` |
-| `<img width="1893" height="838" alt="image" src="https://github.com/user-attachments/assets/c767cd5e-5a87-4b66-b5f7-a1de9a091345" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/46d5a788-5cde-429b-9315-b9fd34c24f98" />
-` |
-| `<img width="1893" height="840" alt="image" src="https://github.com/user-attachments/assets/51b96ff9-6a2a-47bf-bd04-8c73d36d0a4d" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/653ee5a6-4e28-4791-9715-da8126c21435" />
-` |
-| `<img width="1900" height="843" alt="image" src="https://github.com/user-attachments/assets/9d5ae6f4-6378-44ad-8bbb-c0e3ab52633a" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/99f23250-eb0d-425e-ba89-e788a6c856a7" />
-` |
-| `<img width="1891" height="838" alt="image" src="https://github.com/user-attachments/assets/5a32de69-0cc2-4c66-bd72-1d1da8ea1387" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/9d2c4020-69ce-4d77-803f-7048bcded9c0" />
-` |
-| `<img width="1891" height="840" alt="image" src="https://github.com/user-attachments/assets/a3b57253-7faa-4aa8-b820-721492f0ab6d" />
-` | `<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/2d78b12b-00f7-4908-be4f-61cfa48449ee" />
-` |
+| <img width="1900" height="840" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/39da9581-2aad-47a6-a95a-df47210bc40e" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/9d64a62a-b8cd-403d-aeb4-ecd70f6285ee" /> |
+| <img width="1898" height="842" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/89ca4f74-764b-45ee-94c4-a11a9b49d2a2" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/b64a4a82-e432-4a6b-ae1f-59cb82152b84" /> |
+| <img width="1893" height="838" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/c767cd5e-5a87-4b66-b5f7-a1de9a091345" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/46d5a788-5cde-429b-9315-b9fd34c24f98" /> |
+| <img width="1893" height="840" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/51b96ff9-6a2a-47bf-bd04-8c73d36d0a4d" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/653ee5a6-4e28-4791-9715-da8126c21435" /> |
+| <img width="1900" height="843" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/9d5ae6f4-6378-44ad-8bbb-c0e3ab52633a" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/99f23250-eb0d-425e-ba89-e788a6c856a7" /> |
+| <img width="1891" height="838" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/5a32de69-0cc2-4c66-bd72-1d1da8ea1387" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/9d2c4020-69ce-4d77-803f-7048bcded9c0" /> |
+| <img width="1891" height="840" alt="Desktop screenshot" src="https://github.com/user-attachments/assets/a3b57253-7faa-4aa8-b820-721492f0ab6d" /> | <img width="720" height="1600" alt="Mobile screenshot" src="https://github.com/user-attachments/assets/2d78b12b-00f7-4908-be4f-61cfa48449ee" /> |
 
 
 ## Technologies Used
