@@ -32,7 +32,7 @@ const educationData: EducationItem[] = [
         subjects: [
           {
             name: 'Current GPA',
-            grade: '3.71 / 4.0'
+            grade: '3.729 / 4.000'
           }]
       }]
 
