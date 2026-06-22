@@ -5,6 +5,7 @@ import {
   ArrowRightIcon,
   ArrowLeftIcon,
   CalendarIcon,
+  ChevronDownIcon,
   ClockIcon,
   FilterIcon } from
 'lucide-react';
@@ -154,6 +155,7 @@ const articlesData: Article[] = [
 
 export function Articles() {
   const [activeFilter, setActiveFilter] = useState<string>('All');
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const allTags = useMemo(() => {
     const tags = new Set<string>();
@@ -191,16 +193,57 @@ export function Articles() {
             Filter by topic
           </span>
         </div>
-        <div className="flex flex-wrap gap-2">
-          {allTags.map((tag) =>
+        <div className="relative max-w-xs">
           <button
-            key={tag}
-            onClick={() => setActiveFilter(tag)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeFilter === tag ? 'bg-accent-600 dark:bg-accent-500 text-white shadow-md shadow-accent-500/20' : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-accent-500 dark:hover:border-accent-500 hover:text-accent-600 dark:hover:text-accent-400'}`}>
-            
-              {tag}
-            </button>
-          )}
+            type="button"
+            onClick={() => setIsFilterOpen((open) => !open)}
+            aria-expanded={isFilterOpen}
+            aria-haspopup="listbox"
+            className="flex w-full items-center justify-between gap-3 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-700 shadow-sm transition-all duration-200 hover:border-accent-500 hover:text-accent-600 focus:outline-none focus:ring-2 focus:ring-accent-500/30 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-accent-500 dark:hover:text-accent-400">
+            <span className="truncate">{activeFilter}</span>
+            <ChevronDownIcon
+              size={18}
+              className={`shrink-0 text-slate-400 transition-transform duration-200 ${isFilterOpen ? 'rotate-180' : ''}`} />
+          </button>
+
+          <AnimatePresence>
+            {isFilterOpen &&
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  y: -8
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0
+                }}
+                exit={{
+                  opacity: 0,
+                  y: -8
+                }}
+                transition={{
+                  duration: 0.18
+                }}
+                className="absolute left-0 top-full z-20 mt-2 max-h-80 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10 dark:border-slate-700 dark:bg-slate-800 dark:shadow-slate-950/30"
+                role="listbox">
+                {allTags.map((tag) =>
+                <button
+                  key={tag}
+                  type="button"
+                  role="option"
+                  aria-selected={activeFilter === tag}
+                  onClick={() => {
+                    setActiveFilter(tag);
+                    setIsFilterOpen(false);
+                  }}
+                  className={`block w-full rounded-xl px-3 py-2 text-left text-sm font-medium transition-colors ${activeFilter === tag ? 'bg-accent-600 text-white' : 'text-slate-600 hover:bg-slate-100 hover:text-accent-600 dark:text-slate-300 dark:hover:bg-slate-700/70 dark:hover:text-accent-400'}`}>
+                  
+                    {tag}
+                  </button>
+                )}
+              </motion.div>
+            }
+          </AnimatePresence>
         </div>
       </div>
 
