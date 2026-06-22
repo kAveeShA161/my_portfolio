@@ -183,7 +183,7 @@ export function Articles() {
       
 
       {/* Filter Bar */}
-      <div className="mb-10">
+      <div className="relative z-50 mb-10">
         <div className="flex items-center gap-3 mb-4">
           <FilterIcon
             size={16}
@@ -224,7 +224,7 @@ export function Articles() {
                 transition={{
                   duration: 0.18
                 }}
-                className="absolute left-0 top-full z-20 mt-2 max-h-80 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10 dark:border-slate-700 dark:bg-slate-800 dark:shadow-slate-950/30"
+                className="absolute left-0 top-full z-50 mt-2 max-h-80 w-full overflow-y-auto rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10 dark:border-slate-700 dark:bg-slate-800 dark:shadow-slate-950/30"
                 role="listbox">
                 {allTags.map((tag) =>
                 <button
@@ -248,7 +248,7 @@ export function Articles() {
       </div>
 
       {/* Carousel Controls */}
-      <div className="flex items-center justify-end gap-2 mb-6">
+      <div className="relative z-10 flex items-center justify-end gap-2 mb-6">
         <button
           onClick={() => scroll('left')}
           className="p-2.5 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-accent-500 hover:text-accent-600 dark:hover:text-accent-400 transition-all shadow-sm"
@@ -268,7 +268,7 @@ export function Articles() {
       {/* Horizontal Scrolling Cards */}
       <div
         ref={scrollRef}
-        className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide"
+        className="relative z-0 flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide"
         style={{
           scrollbarWidth: 'none',
           msOverflowStyle: 'none'
